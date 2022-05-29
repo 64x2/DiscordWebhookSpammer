@@ -7,3 +7,5 @@ Type `pip install -r requirements.txt` <br />
 Run `WebhookSpammer.py` <br />
 The rest will be easy to understand!
 
+![Image of GUI]([https://starchart.cc/kami-blue/client.svg](https://cdn.discordapp.com/attachments/859443997116989480/980539293296627772/unknown.png))
+
