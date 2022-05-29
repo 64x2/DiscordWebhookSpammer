@@ -1,1 +1,3 @@
 discord-webhook
+time
+colorama
