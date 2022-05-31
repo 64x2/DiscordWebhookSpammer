@@ -26,6 +26,7 @@ def spammer():
     for i in range (times):
         webhook = DiscordWebhook(url=url, rate_limit_retry=True, content=f"{value}", username=f"{username}")
         response = webhook.execute()
+        print(Fore.BLUE + f"Sent [{value}] to the specified webhook!")
         time.sleep(delay/1000)
 
 if __name__ == "__main__": # Credit to @Invy55 for this area :^)
