@@ -14,7 +14,7 @@ print(Fore.RED + "                                                              
 print(Fore.RED + "                                                                                   | $$                                                                ")
 print(Fore.RED + "                                                                                   |__/                                                                ")
 print("")
-print(Fore.BLUE + "Welcome to Webhook Spammer! Made by Xofo @ github.com/64x2/DiscordWebhookSpammer for free use.")
+print(Fore.BLUE + "Made by Xofo (find out this trick on how to abuse discord api, discord staff hates him!)\n")
 
 def spammer():
     url = input(Fore.GREEN + "Enter the webhook you would like to spam: \n> ")
