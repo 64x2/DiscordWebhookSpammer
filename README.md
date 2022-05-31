@@ -6,3 +6,5 @@ Open CMD/Terminal <br />
 Type `pip install -r requirements.txt` <br />
 Run `WebhookSpammer.py` <br />
 The rest will be easy to understand!
+
+**Don't ask for support, it will not be provided!**
