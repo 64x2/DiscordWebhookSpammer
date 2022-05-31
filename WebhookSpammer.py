@@ -26,14 +26,14 @@ def spammer():
     for i in range (times):
         webhook = DiscordWebhook(url=url, rate_limit_retry=True, content=f"{value}", username=f"{username}")
         response = webhook.execute()
-        print(Fore.BLUE + f"Sent [{value}] to the specified webhook!")
+        print(Fore.BLUE + f"Sent [{value}] to the specified webhook {i+1}/{times} times!")
         time.sleep(delay/1000)
 
 if __name__ == "__main__": # Credit to @Invy55 for this area :^)
     spammer()
     while True:
         try:
-            if "y" in input(Fore.GREEN + "Would you like to start over? (Y/N) \n").lower():
+            if "y" in input(Fore.GREEN + "Finished Spamming! Would you like to start over? (Y/N) \n").lower():
                 spammer()
             else:
                 break
